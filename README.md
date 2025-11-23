@@ -6,7 +6,7 @@ git clone https://github.com/cloudinstitution/Prometheus-Grafana.git
 cd Prometheus-Grafana
 chmod +x *.sh
 
-## install Prometheus
+## Install Prometheus
 
 sh prometheus-ec2-install.sh
 
