@@ -12,5 +12,9 @@ sh prometheus-ec2-install.sh
 
 Access prometheus at  http://100.26.180.156:9090/   # replace your ip EC2 instance public address
 
+## Install Prometheus node exporter
+
+sh prometheus-node-exporter.sh 
+
 
 
