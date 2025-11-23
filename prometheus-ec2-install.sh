@@ -8,7 +8,7 @@ echo "172.31.75.218 web_01" >> /etc/hosts   # change the node exporter ip here.
 cp prometheus.yml /etc/prometheus/prometheus.yml 
 sudo useradd -rs /bin/false prometheus
 sudo chown -R prometheus: /etc/prometheus /var/lib/prometheus
-vi /etc/systemd/system/prometheus.service 
+cp prometheus.service /etc/systemd/system/prometheus.service 
 sudo systemctl daemon-reload
 sudo systemctl enable prometheus 
 sudo systemctl start prometheus
